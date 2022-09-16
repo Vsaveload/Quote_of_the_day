@@ -19,6 +19,7 @@ export default function Layout({ initState }) {
             __html: `window.initState=${JSON.stringify(initState)}`,
           }}
         />
+        <link href="/style.css" rel="stylesheet" type="text/css" />
         <title>Quote of the day</title>
       </head>
       <body className="bg-warning text-dark">
